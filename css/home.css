@@ -1,0 +1,240 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.logoimage img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 170px;
+    height: 70px;
+    position: relative;
+    top: 6px;
+    margin-top: -24px;
+}
+
+.menu {
+    width: 35px;
+    cursor: pointer;
+    margin-top: 0;
+    position: relative;
+    top: 18px;
+    left: 60px;
+}
+.menuicon:nth-child(3) {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.menuicon {  
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+  }
+  .navbar {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+  }
+  .header {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-image: url("../Images/Header.jpg");
+    background-repeat: no-repeat;
+    background-position-y: -270px;
+    background-size: cover;
+  }
+  #mainheading{
+    position: absolute;
+    line-height: 66px;
+    text-align: right;
+    top: 55%;
+    left: 60%;
+    font-size: 90px;
+    font-weight: 900;
+    color: #2C417F;
+  }
+  .blueblock {
+    background-color: #2C417F;
+    width: 1230px;
+    height: 300px;
+    position: absolute;
+    top: 73%;
+    left: 48.75%;
+  }
+  .colorwhite {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+    line-height: 95px;
+    letter-spacing: 1.1;
+    text-transform:uppercase;
+    font-size: 74px;
+    color: #ffffff;
+  }
+  #ricon {
+    position: absolute;
+    top: -20%;
+    left: 100%;
+    font-size: 50px;
+    
+  }
+  .section1{
+    width: 653px;
+    height: 275px;
+    position: absolute;
+    top:1120px;
+    left: 340px;
+
+  }
+  .section2{
+    position: relative;
+    width: 934px;
+    height: 629px;
+  }
+  .section1 h1 {
+    color: #A9D85C;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+  }
+  .section1 p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39.2px;
+  }
+  .section1 button {
+    border: none;
+    width: 250px;
+    height: 90px;
+    background-color: #A9D85C;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .section2 .blueblock {
+    position: absolute;
+    top: 400px;
+    left: 110%;
+    width: 800px;
+    height: 500px;
+  }
+.image1 {
+    width: 100%;
+    z-index: 3;
+    height: 580px;
+    position: absolute;
+    top: 470px;
+    left: 120%;
+  }
+  .section3 {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 520px;
+  }
+  .section3 h1 {
+    width: 316px;
+    text-transform: uppercase;
+   color: #2C417F;
+    font-size: 48px;
+    border-bottom:5px solid #2C417F;
+    line-height: 67.2px;
+    text-align: center;
+    font-weight: 500;
+   margin: 0 auto;
+   margin-bottom: 30px;
+  }
+
+  .section3 p {
+    margin: 0 auto;
+    width: 900px;
+    height: 76.18px;
+    font-size: 28px;
+    line-height: 39.2px;
+    text-align: center;
+  }
+  .section3 img{
+    width: 481px;
+    height: 718px;
+    position: absolute;
+    top:200px;
+    left: 350px;
+  }
+  .section3 .greenblock {
+    background-color: #A9D85C;
+    width: 860px;
+    height: 352px;
+    position: absolute;
+    top: 300px;
+    left: 780px;
+
+  }
+  .greenblock #explore {
+    width: 500px;
+    text-align: left;
+    height: 78px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #ffffff;
+    top: 250px;
+    position: absolute;
+    margin-left: 80px;
+  }
+  .section3 .greenblock p{
+    width: 500px;
+    text-align: left;
+    height: 78px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #ffffff;
+    top: 140px;
+    position: absolute;
+    margin-left: 80px;
+  }
+  .greenblock #separateborder {
+    margin-top: 90px;
+    width: 170px;
+    margin-left: 80px;
+    display: block;
+    border-top: 4px solid white;
+  }
+  .section4{
+    width: 100%;
+  height: 500px;
+  position: relative;
+  left: 350px;
+  top: 520px;
+  
+}
+.section4 .video{
+  display: inline-block;
+  width: 540px;
+  height: 360px;
+}
+.section4 .video img:nth-child(1){
+  width: 540px;
+  height: 360px;
+  opacity: 0.7;
+}
+#black{
+  width: 540px;
+  height: 360px;
+  background-color: black;
+  position: relative;
+  left: 350px;
+  top: 520px;
+  opacity: 0.7;
+  z-index: 10;
+}
