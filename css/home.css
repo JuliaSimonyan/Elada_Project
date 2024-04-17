@@ -352,6 +352,7 @@ footer {
 .icons i:nth-child(1){
   top: 170px;
   left: 100%;
+  z-index: 3;
   position: absolute;
   display: inline-block;
   margin-right: 10px;
@@ -359,6 +360,7 @@ footer {
 .icons i:nth-child(2){
   top: 170px;
   left: 110%;
+  z-index: 3;
   position: absolute;
   display: inline-block;
   margin-right: 10px;
@@ -366,6 +368,7 @@ footer {
 .icons i:nth-child(3){
   top: 170px;
   left: 120%;
+  z-index: 3;
   position: absolute;
   display: inline-block;
   margin-right: 10px;
