@@ -67,3 +67,17 @@ footer {
     top: 60px;
     left: 35%;
   }
+
+
+  @media only screen and (max-width: 1680px) {
+   
+    .headerstory p {
+        margin-left: 80px;
+    }
+    .headerstory .image {
+        margin-right: 50px;
+    }
+
+    
+
+}
