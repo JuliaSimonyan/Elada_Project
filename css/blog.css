@@ -1,0 +1,25 @@
+.blogheading h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    color: #2C417F;
+    position: absolute;
+    z-index: 2;
+    left: 45%;
+}
+
+.blogheading {
+    position: relative;
+}
+
+.greenblock {
+    top: 155px;
+    left: 0%;
+    z-index: 0;
+    width: 70%;
+    height: 25px;
+    background-color: #A9D85C ;
+    position: absolute;
+}
